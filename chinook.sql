@@ -23,4 +23,4 @@ JOIN genres g ON t.GenreId = g.GenreId
 JOIN  albums a ON  t.AlbumId = a.AlbumId 
 ORDER  by Title DESC
 
-
+JOIN = unir tablas
