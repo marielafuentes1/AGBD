@@ -11,3 +11,8 @@
  WHERE rating LIKE "%PG%"
  ORDER by rental_rate DESC
 
+ /4/
+ SELECT city, country FROM city t
+ JOIN country a ON t.country_id = a.country_id
+ ORDER by a.country_id
+
