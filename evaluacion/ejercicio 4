@@ -1,0 +1,3 @@
+SELECT name AS Nombre, address_street_name AS Calle, address_number AS Num
+FROM person
+WHERE address_street_name LIKE "%Franklin Ave%"
